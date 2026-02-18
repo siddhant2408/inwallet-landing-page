@@ -243,7 +243,7 @@ function DashboardMockup() {
 export function FunctionalitySection() {
   return (
     <section className="border-t border-border/60 bg-card">
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28">
+      <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:py-28">
         <div className="mx-auto max-w-2xl text-center">
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-accent">
             How It Works

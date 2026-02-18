@@ -3,7 +3,7 @@ import { FileText } from "lucide-react"
 export function Footer() {
   return (
     <footer className="border-t border-border/60 bg-card">
-      <div className="mx-auto max-w-6xl px-6 py-10">
+      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           {/* Logo */}
           <div className="flex items-center gap-2">
