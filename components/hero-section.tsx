@@ -3,7 +3,7 @@ import { ArrowRight, Camera, Clock, FileText, Search, Tag } from "lucide-react"
 
 function MobileMockup() {
   return (
-    <div className="relative mx-auto w-[220px] lg:w-[260px]">
+    <div className="relative mx-auto w-full max-w-[260px]">
       {/* Phone frame */}
       <div className="rounded-[2rem] border border-border bg-card p-2 shadow-xl">
         <div className="rounded-[1.5rem] bg-background overflow-hidden">
@@ -55,7 +55,7 @@ function InvoiceListMockup() {
   ]
 
   return (
-    <div className="w-[280px] lg:w-[340px] rounded-xl border border-border bg-card p-4 shadow-lg">
+    <div className="w-full max-w-[340px] rounded-xl border border-border bg-card p-4 shadow-lg">
       <div className="mb-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <FileText className="h-4 w-4 text-accent" />
@@ -97,28 +97,28 @@ function InvoiceListMockup() {
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden">
-      <div className="mx-auto max-w-6xl px-6 pb-20 pt-16 lg:pb-28 lg:pt-24">
+      <div className="mx-auto max-w-6xl px-4 pb-20 pt-16 sm:px-6 lg:pb-28 lg:pt-24">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Left: Copy */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs text-muted-foreground shadow-sm">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" />
               Early Access Now Open
             </div>
 
-            <h1 className="mb-6 text-balance text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-[3.5rem]">
+            <h1 className="mb-6 text-balance text-3xl font-bold leading-tight tracking-tight text-foreground sm:text-4xl md:text-5xl lg:text-[3.5rem]">
               Never Lose an Invoice Again.
             </h1>
 
-            <p className="mb-8 max-w-lg text-pretty text-lg leading-relaxed text-muted-foreground">
+            <p className="mb-8 max-w-lg text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
               Capture, store, and organize every invoice in one secure wallet
               — ready for reimbursements, returns, and warranties.
             </p>
 
-            <div className="flex flex-wrap items-center gap-3">
+            <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:flex-wrap sm:items-center">
               <Button
                 size="lg"
-                className="rounded-full bg-accent text-accent-foreground px-8 hover:bg-accent/90 shadow-md"
+                className="w-full rounded-full bg-accent px-8 text-accent-foreground shadow-md hover:bg-accent/90 sm:w-auto"
               >
                 Join Early Access
                 <ArrowRight className="ml-1 h-4 w-4" />
@@ -126,7 +126,7 @@ export function HeroSection() {
               <Button
                 variant="outline"
                 size="lg"
-                className="rounded-full px-8"
+                className="w-full rounded-full px-8 sm:w-auto"
               >
                 See How It Works
               </Button>
@@ -134,7 +134,7 @@ export function HeroSection() {
           </div>
 
           {/* Right: Mockups */}
-          <div className="relative flex items-center justify-center gap-4 lg:gap-6">
+          <div className="relative flex flex-col items-center justify-center gap-6 sm:flex-row sm:gap-4 lg:gap-6">
             <MobileMockup />
             <InvoiceListMockup />
           </div>
