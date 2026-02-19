@@ -16,7 +16,7 @@ export function Navbar() {
             <FileText className="h-4 w-4 text-primary-foreground" />
           </div>
           <span className="text-lg font-semibold tracking-tight text-foreground">
-            Invoice Wallet
+            Inburse
           </span>
         </a>
 
@@ -46,9 +46,11 @@ export function Navbar() {
           >
             Dashboard
           </Link>
+          <a href="#earlyaccess">
           <Button size="sm" className="rounded-full bg-accent text-accent-foreground hover:bg-accent/90">
             Join Early Access
           </Button>
+          </a>
         </div>
 
         {/* Mobile menu button */}

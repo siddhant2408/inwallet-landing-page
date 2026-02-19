@@ -76,7 +76,7 @@ export function EarlyAccessSection() {
   const showResult = status === "success" || status === "duplicate" || status === "error"
 
   return (
-    <section className="border-t border-border/60">
+    <section id="earlyaccess" className="border-t border-border/60">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:py-28">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="mb-4 text-balance text-2xl font-bold tracking-tight text-foreground sm:text-3xl md:text-4xl">

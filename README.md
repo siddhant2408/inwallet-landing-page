@@ -1,2 +1,2 @@
-# inwallet
+# Inburse
 Invoice Wallet
