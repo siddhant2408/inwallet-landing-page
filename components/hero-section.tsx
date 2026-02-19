@@ -116,6 +116,7 @@ export function HeroSection() {
             </p>
 
             <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:flex-wrap sm:items-center">
+              <a href="#earlyaccess">
               <Button
                 size="lg"
                 className="w-full rounded-full bg-accent px-8 text-accent-foreground shadow-md hover:bg-accent/90 sm:w-auto"
@@ -123,6 +124,8 @@ export function HeroSection() {
                 Join Early Access
                 <ArrowRight className="ml-1 h-4 w-4" />
               </Button>
+              </a>
+              <a href="#working">
               <Button
                 variant="outline"
                 size="lg"
@@ -130,6 +133,7 @@ export function HeroSection() {
               >
                 See How It Works
               </Button>
+              </a>
             </div>
           </div>
 
