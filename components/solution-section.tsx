@@ -1,4 +1,6 @@
 import { Camera, ScanText, ShieldCheck, LayoutDashboard } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
 
 const features = [
   {
@@ -42,9 +44,18 @@ export function SolutionSection() {
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
             One Secure Invoice Wallet.
           </h2>
-          <p className="mb-14 text-muted-foreground leading-relaxed">
+          <p className="mb-6 text-muted-foreground leading-relaxed">
             Everything you need to capture, organize, and access your invoices — in one place.
           </p>
+          <a href="/wallet">
+            <Button
+              variant="outline"
+              className="mb-14 rounded-full"
+            >
+              Explore Wallet
+              <ArrowRight className="ml-1 h-4 w-4" />
+            </Button>
+          </a>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2">

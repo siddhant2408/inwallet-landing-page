@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/hero-section"
 import { ProblemSection } from "@/components/problem-section"
 import { WorkflowSection } from "@/components/workflow-section"
 import { FeaturesSection } from "@/components/features-section"
+import { SolutionSection } from "@/components/solution-section"
 import { PolicySection } from "@/components/policy-section"
 import { AuditSection } from "@/components/audit-section"
 import { PayrollSection } from "@/components/payroll-section"
@@ -21,6 +22,7 @@ export default function Home() {
       <ProblemSection />
       <WorkflowSection />
       <FeaturesSection />
+      <SolutionSection />
       <PolicySection />
       <AuditSection />
       <PayrollSection />

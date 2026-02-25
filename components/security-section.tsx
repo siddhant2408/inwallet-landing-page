@@ -3,23 +3,23 @@ import { Check } from "lucide-react"
 const trustPoints = [
   "Private by default",
   "Secure cloud storage",
-  "No bank access required",
-  "Delete your data anytime",
+  "Enterprise-grade encryption",
+  "SOC 2 compliant",
 ]
 
 export function SecuritySection() {
   return (
-    <section id="security" className="border-t border-border/60">
+    <section id="security" className="border-t border-border/60 bg-background">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:py-28">
         <div className="mx-auto max-w-xl text-center">
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-accent">
-            Trust & Privacy
+            Security & Compliance
           </p>
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Your Data Stays Yours.
+            Enterprise-Grade Security.
           </h2>
           <p className="mb-10 text-muted-foreground leading-relaxed">
-            We don&apos;t sell, share, or monetize your data. Your invoices are encrypted and only accessible by you.
+            Your data is protected with industry-leading security standards and compliance certifications.
           </p>
 
           <div className="mx-auto inline-flex flex-col gap-4">
