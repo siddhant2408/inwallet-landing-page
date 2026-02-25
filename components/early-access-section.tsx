@@ -80,7 +80,7 @@ export function EarlyAccessSection() {
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:py-28">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="mb-4 text-balance text-2xl font-bold tracking-tight text-foreground sm:text-3xl md:text-4xl">
-            Be the First to Organize Your Invoices Properly.
+            Ready to Simplify Reimbursement.
           </h2>
           <p className="mb-8 text-sm leading-relaxed text-muted-foreground sm:text-base">
             Join our early access list and get exclusive first access when we launch.

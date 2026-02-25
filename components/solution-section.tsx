@@ -39,13 +39,13 @@ export function SolutionSection() {
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:py-28">
         <div className="mx-auto max-w-2xl text-center">
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-accent">
-            The Solution
+            Invoice Wallet
           </p>
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            One Secure Invoice Wallet.
+            Capture, Store, and Organize Your Invoices.
           </h2>
           <p className="mb-6 text-muted-foreground leading-relaxed">
-            Everything you need to capture, organize, and access your invoices — in one place.
+            A secure personal wallet for every employee to maintain their invoice history.
           </p>
           <a href="/wallet">
             <Button

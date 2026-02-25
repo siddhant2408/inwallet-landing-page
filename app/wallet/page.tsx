@@ -68,15 +68,15 @@ export default function WalletPage() {
           <div className="flex flex-col items-center text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs text-muted-foreground shadow-sm">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-              Wallet & Dashboard
+              Invoice Wallet & Team Dashboard
             </div>
 
             <h1 className="mb-6 text-balance text-3xl font-bold leading-tight tracking-tight text-foreground sm:text-4xl md:text-5xl lg:text-[3.5rem]">
-              Secure Invoice Wallet & Smart Dashboard.
+              Capture Invoices. Manage Approvals. Simplify Payroll.
             </h1>
 
             <p className="mb-10 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Employees store and manage invoices in one secure place. Managers approve claims in real-time. Finance gets clean, audit-ready data.
+              Employees securely store invoices. Managers approve in real-time with automatic policy checks. Finance exports clean, audit-ready data.
             </p>
 
             <a href="#earlyaccess">
