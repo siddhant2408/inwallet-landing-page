@@ -41,10 +41,10 @@ export function Navbar() {
             Security
           </a>
           <Link
-            href="/dashboard"
+            href="/wallet"
             className="text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
-            Dashboard
+            Wallet
           </Link>
           <a href="#earlyaccess">
           <Button size="sm" className="rounded-full bg-accent text-accent-foreground hover:bg-accent/90">
@@ -89,11 +89,11 @@ export function Navbar() {
               Security
             </a>
             <Link
-              href="/dashboard"
+              href="/wallet"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
               onClick={() => setMobileOpen(false)}
             >
-              Dashboard
+              Wallet
             </Link>
             <a href="#earlyaccess">
             <Button size="sm" className="w-full rounded-full bg-accent text-accent-foreground hover:bg-accent/90">
