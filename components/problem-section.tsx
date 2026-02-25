@@ -1,30 +1,30 @@
-import { Mail, Image, MessageCircle, Receipt, CalendarDays } from "lucide-react"
+import { Upload, ClipboardList, CheckCircle2, AlertCircle, Shuffle } from "lucide-react"
 
 const problems = [
   {
-    icon: Mail,
-    text: "Buried in email",
-    description: "Lost between newsletters and promotional spam.",
+    icon: Upload,
+    text: "Employees upload invoices one by one",
+    description: "Manual uploads for each expense claim clog email and portals.",
   },
   {
-    icon: Image,
-    text: "Scattered across your gallery",
-    description: "Mixed in with selfies and screenshots.",
+    icon: ClipboardList,
+    text: "Manual data entry into HR portals",
+    description: "Fields like date, amount, merchant are typed manually, introducing errors.",
   },
   {
-    icon: MessageCircle,
-    text: "Lost in WhatsApp",
-    description: "Forwarded once, never found again.",
+    icon: CheckCircle2,
+    text: "Finance re-checks every invoice manually",
+    description: "Repeated verification of the same documents wastes time and resources.",
   },
   {
-    icon: Receipt,
-    text: "Missing during reimbursement time",
-    description: "The one you need is always the one you can't find.",
+    icon: AlertCircle,
+    text: "No automatic policy enforcement",
+    description: "Out-of-policy claims aren't caught until after approval, delaying payroll.",
   },
   {
-    icon: CalendarDays,
-    text: "Hard to organize at financial year end",
-    description: "Scrambling to collect everything at the last minute.",
+    icon: Shuffle,
+    text: "Duplicate claims slip through",
+    description: "Accidental duplicate submissions create billing confusion.",
   },
 ]
 
@@ -37,10 +37,10 @@ export function ProblemSection() {
             The Problem
           </p>
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Where Do Your Invoices Live Today?
+            Why Reimbursement Still Feels Manual
           </h2>
           <p className="mb-12 text-muted-foreground leading-relaxed">
-            Invoices are scattered, lost, and impossible to find when you need them most.
+            Traditional reimbursement workflows lack automation and rely on repetitive manual work.
           </p>
         </div>
 

@@ -14,9 +14,9 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Invoice Wallet - Never Lose an Invoice Again',
+  title: 'Inburse - Reimbursement Automation for Growing Teams',
   description:
-    'Capture, store, and organize every invoice in one secure wallet. Ready for reimbursements, returns, and warranties.',
+    'Modern reimbursement automation system built for growing companies. Eliminate manual invoice uploads, policy checks, and payroll friction. Automate your entire workflow from employee submission to payroll export.',
   icons: {
     icon: [
       {

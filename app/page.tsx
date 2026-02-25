@@ -1,10 +1,15 @@
 import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/hero-section"
 import { ProblemSection } from "@/components/problem-section"
-import { SolutionSection } from "@/components/solution-section"
-import { FunctionalitySection } from "@/components/functionality-section"
+import { WorkflowSection } from "@/components/workflow-section"
+import { FeaturesSection } from "@/components/features-section"
+import { PolicySection } from "@/components/policy-section"
+import { AuditSection } from "@/components/audit-section"
+import { PayrollSection } from "@/components/payroll-section"
+import { TargetCompanySection } from "@/components/target-company-section"
+import { PricingSection } from "@/components/pricing-section"
+import { DemoCTASection } from "@/components/demo-cta-section"
 import { SecuritySection } from "@/components/security-section"
-import { TestimonialSection } from "@/components/testimonial-section"
 import { EarlyAccessSection } from "@/components/early-access-section"
 import { Footer } from "@/components/footer"
 
@@ -14,10 +19,15 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <ProblemSection />
-      <SolutionSection />
-      <FunctionalitySection />
+      <WorkflowSection />
+      <FeaturesSection />
+      <PolicySection />
+      <AuditSection />
+      <PayrollSection />
+      <TargetCompanySection />
+      <PricingSection id="pricing" />
+      <DemoCTASection />
       <SecuritySection />
-      <TestimonialSection />
       <EarlyAccessSection />
       <Footer />
     </main>
