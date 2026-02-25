@@ -8,7 +8,6 @@ import { PolicySection } from "@/components/policy-section"
 import { AuditSection } from "@/components/audit-section"
 import { PayrollSection } from "@/components/payroll-section"
 import { TargetCompanySection } from "@/components/target-company-section"
-import { DemoCTASection } from "@/components/demo-cta-section"
 import { SecuritySection } from "@/components/security-section"
 import { EarlyAccessSection } from "@/components/early-access-section"
 import { Footer } from "@/components/footer"
@@ -26,7 +25,6 @@ export default function Home() {
       <PayrollSection />
       <SolutionSection />
       <TargetCompanySection />
-      <DemoCTASection />
       <SecuritySection />
       <EarlyAccessSection />
       <Footer />
