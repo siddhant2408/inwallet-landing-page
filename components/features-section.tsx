@@ -1,4 +1,4 @@
-import { Users, ClipboardList, BarChart3, Camera, Tag, Eye, Clock, CheckCircle2, FileText, Filter, Lock, Zap } from "lucide-react"
+import { Users, BarChart3, Camera, Tag, Eye, Clock, CheckCircle2, FileText, Lock, Zap } from "lucide-react"
 
 const featureGroups = [
   {
@@ -11,18 +11,6 @@ const featureGroups = [
       { icon: Tag, title: "Category tagging", desc: "Organize by expense type" },
       { icon: Clock, title: "Claim grouping", desc: "Bundle related expenses" },
       { icon: Eye, title: "Submission tracking", desc: "See claim status in real-time" },
-    ],
-  },
-  {
-    title: "Manager Features",
-    icon: ClipboardList,
-    color: "bg-purple-500/10 text-purple-600",
-    features: [
-      { icon: CheckCircle2, title: "Clean approval dashboard", desc: "Review pending claims" },
-      { icon: FileText, title: "Approve / reject with comments", desc: "Leave audit trail" },
-      { icon: Clock, title: "Auto-routing by hierarchy", desc: "Claims flow to right manager" },
-      { icon: Eye, title: "Visibility into history", desc: "See all claim revisions" },
-      { icon: Filter, title: "Bulk actions", desc: "Process multiple claims at once" },
     ],
   },
   {
@@ -51,18 +39,18 @@ export function FeaturesSection() {
             Built for Real Finance Workflows
           </h2>
           <p className="mb-14 text-muted-foreground leading-relaxed">
-            Powerful features designed for every role in your organization.
+            Powerful features designed for employees and finance teams.
           </p>
         </div>
 
         {/* Feature Groups */}
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
           {featureGroups.map((group) => {
             const GroupIcon = group.icon
             return (
               <div key={group.title} className="rounded-2xl border border-border/60 bg-card p-6">
-                <div className="mb-6 flex items-center gap-3">
-                  <div className={`flex h-12 w-12 items-center justify-center rounded-lg ${group.color}`}>
+                <div className="mb-6 flex flex-col items-center text-center">
+                  <div className={`flex h-12 w-12 items-center justify-center rounded-lg ${group.color} mb-3`}>
                     <GroupIcon className="h-6 w-6" />
                   </div>
                   <h3 className="text-lg font-semibold text-foreground">{group.title}</h3>
